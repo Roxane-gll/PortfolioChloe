@@ -202,7 +202,7 @@ ol.carousel-indicators li.active {
     height: 9vh;
     width: 9vw;
     position: absolute;
-    top: 49vh;
+    top: 53vh;
     left: 37vw;
 }
 
@@ -409,7 +409,14 @@ ol.carousel-indicators li.active {
     left: 11.5vw;
 }
 
-@media (min-width:1000px) {
+
+@media (max-height:1000px) {
+    #footerFleche{
+        top: 49vh;
+    }
+}
+
+@media (max-height:1000px) {
     .shot>p{
         top: 70vh;
         left: 20vw;
