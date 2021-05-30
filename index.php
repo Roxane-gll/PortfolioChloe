@@ -24,10 +24,10 @@ $.ajax({
         for (var key in links) {
             if (links.hasOwnProperty(key)) {
                 $('#contact').append(
-                    `<li><a href="${links[key][1]}"><img src=image/icones/${links[key][0]}.svg></a></li>`
+                    `<li><a href="${links[key][1]}" target="_blank"><img src=image/icones/${links[key][0]}.svg></a></li>`
                 )
                 $('#footer').append(
-                    `<li><a href="${links[key][1]}"><img src=image/icones/${links[key][0]}.svg></a></li>`
+                    `<li><a href="${links[key][1]}" target="_blank"><img src=image/icones/${links[key][0]}.svg></a></li>`
                 )
             }
         }
