@@ -49,7 +49,7 @@
     background-size: 100%, 100%;
     border-radius: 50%;
     background-image: none;
-    font-family: 'Jost', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .carousel-control-prev{
@@ -124,7 +124,7 @@ ol.carousel-indicators li.active {
 }
 
 .shot>p{
-    font-family: 'Jost', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     position: absolute;
     font-size: 2.5vh;
     top: 34vw;
@@ -157,7 +157,7 @@ ol.carousel-indicators li.active {
 }
 
 #footer>p:nth-of-type(2){
-    font-family: 'Jost', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 30px;
     left: -15vw;
     top: 32vh;
@@ -166,7 +166,7 @@ ol.carousel-indicators li.active {
 #footer>p:nth-of-type(3){
     font-weight: normal;
     color: black;
-    font-family: 'Jost', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     position: absolute;
     text-align: center;
     top: 91vh;
